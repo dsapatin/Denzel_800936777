@@ -1,2 +1,4 @@
-#Denzel Sapatin
-#800936777
+
+# Denzel_800936777
+This is the initial README file for the course
+

@@ -1,0 +1,96 @@
+/* Nav Bar */
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0px;
+    overflow: hidden;
+    background-color:rgb(54, 52, 52);
+    justify-content: right;
+  }
+  .topnav li {
+    float: right;
+  }
+  .topnav li a {
+    display: block;
+    color: yellow;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .topnav li a:hover {
+    background-color: #111;
+  }
+
+/* Main */
+
+div{
+   
+    border: solid 1px rgb(54, 52, 52);
+}
+.container{
+    border: none;
+}
+.backg{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 0px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+ }
+ 
+ /* Div Entry Blog*/
+ .container{
+     
+    display: flex;
+}
+.fixed{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:250px ;
+    padding: 40px 50px;
+    
+}
+.flex-item{
+    flex-grow: 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left:600px ;
+    padding: 40px 50px;
+}
+  .button{
+    text-decoration: none; font: menu;
+    display: inline-block; padding: 2px 8px;
+    background: ButtonFace; color: ButtonText;
+    border-style: solid; border-width: 2px;
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+  }
+
+  h1 {
+      text-align: center;
+  }
+  h2 {
+    text-align: center;
+    color:darkslategrey;
+
+  }
+  h3 {
+      text-align: center;
+      color:darkslategrey;
+  }
+  p{
+      text-align: center;
+      padding: 14px 10%;
+      font-size: 20px;
+      color: white;
+  }
+
+#page{
+    position: relative;
+  min-height: 100vh;
+}
+footer {
+    text-align: left;
+    margin: 0;
+    background-color:rgb(54, 52, 52);
+}

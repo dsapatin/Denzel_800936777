@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <title>Bike Society</title>
+        <meta charset="UTF-8">	
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="m4.js"></script>   
+
+        <style>
+            .iransans-font{
+                font-family: Arial !important; 
+            }
+            </style> 
+        
+    </head>
+    <body>
+                    <!------------------------Start of navigation list------------------------->
+                        <header>
+                                <div class="topnav">
+                                    <a href="index.html">
+                                    </a>
+                                    <ul>
+                                        <li><a href="login.html" id="Admin-login"">Admin Login</a></li>
+                                        <li><a href="" id="sign-up">Style Switcher</a></li>
+                                        <li><a href="" id="login">Font resizer</a></li>
+                                    </ul>
+                                </div>
+                        </header>
+                    <!------------------------End of navigation list---------------------------->
+        
+        
+        <main>
+            
+                    <!------------------------Beginning of Background image--------------------->
+                        <div id= "backgr">
+                        </div>
+                    <!------------------------End of Background image--------------------------->
+
+
+
+                    <!-----------------       Background Switcher          --------------------->
+
+                        <a href="#" id="background1">Background Image 1</a>
+                        <a href="#" id="background2">Background Image 2</a>
+                        <a href="#" id="background3">Background Image 3</a>
+
+
+                    <!-----------------       End of Background Switcher      ------------------>
+
+
+
+                    <!------------------------Start of Blog boxes------------------------------->
+                                <div class="parentblog" id="allblogs">
+                                    <div class="container">
+                                        <div class="fixed">Blog Entry</div>
+                                        <div class="flex-item">Blog Entry</div>
+                                    </div>
+                                    <div class="container">
+                                        <div class="fixed">Blog Entry</div>
+                                        <div class="flex-item">Blog Entry</div>    
+                                    </div>
+                    <!-------------------------End of Blog boxes-------------------------------->
+
+                    <!-------------------------Start of font resizer---------------------------->
+                    
+                    Font Size:
+                    <a id="plustext" alt="Increase text size" onclick="resizeText(1)" />Increase Font Size</a>
+                    <a id="minustext" alt="Decrease text size"  onclick="resizeText(-1)" />Decrease Font Size</a>
+                    
+                    <!-------------------------End of font resizer------------------------------>
+               
+        </main>            
+
+
+
+        <footer>
+            <p>
+                &copy; Bike Society
+            </p>   
+        </footer>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>Bike Society</title>
+    <meta charset="UTF-8">	
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+    <script src="https://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="/javascript/m4.js"></script>   
+
+    <style>
+        .iransans-font{
+            font-family: Arial !important; 
+        }
+        </style> 
+    
+</head>
+<body>
+<!------------------------Start of navigation list------------------------->
+            <header>
+                    <div class="topnav">
+                        <a href="index.html"></a>
+                         
+                        <ul>
+                            <li><a href="/login" id="Admin-login"">Admin Login</a></li>
+
+    
+                            <li><div class="dropdown">
+                                <button class="dropbtn">Font Resizer <i class="fa fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                  <a id="plustext" alt="Increase text size" onclick="resizeText(1)" />Increase Font </a>
+                                  <a id="minustext" alt="Decrease text size"  onclick="resizeText(-1)" />Decrease Font </a> 
+                                </div>
+                              </div></li>
+
+                              <li><div class="dropdown">
+                                <button class="dropbtn">Style Switcher <i class="fa fa-caret-down"></i></button>
+                                <div class="dropdown-content">
+                                    <a href="#" id="background1">Image 1</a>
+                                    <a href="#" id="background2">Image 2</a>
+                                    <a href="#" id="background3">Image 3</a>
+                                </div>
+                              </div></li>
+                        </ul>
+                    </div>
+            </header>
+<!------------------------End of navigation list---------------------------->
+
+<!------------------------Beginning of Background image--------------------->
+            <div id= "backgr">
+            </div>
+<!------------------------End of Background image--------------------------->
+
+<!-----------------       Background Switcher          --------------------->
+            Change the Background Image: 
+            <a href="#" id="background1">Image 1</a>
+            <a href="#" id="background2">Image 2</a>
+            <a href="#" id="background3">Image 3</a>
+<!-------------------------Start of font resizer---------------------------->            
+            <br>Font Size:
+            <a id="plustext" alt="Increase text size" onclick="resizeText(1)" />Increase Font </a>
+            <a id="minustext" alt="Decrease text size"  onclick="resizeText(-1)" />Decrease Font </a>      
+<!-------------------------End of font resizer------------------------------>
+        
+   
